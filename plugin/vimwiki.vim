@@ -342,13 +342,13 @@ let s:vimwiki_defaults.auto_toc = 0
 let s:vimwiki_defaults.temp = 0
 
 " diary
-let s:vimwiki_defaults.diary_rel_path = 'diary/'
+let s:vimwiki_defaults.diary_rel_path = './'
 let s:vimwiki_defaults.diary_index = 'diary'
 let s:vimwiki_defaults.diary_header = 'Diary'
 let s:vimwiki_defaults.diary_sort = 'desc'
 
 " Do not change this! Will wait till vim become more datetime awareable.
-let s:vimwiki_defaults.diary_link_fmt = '%Y-%m-%d'
+let s:vimwiki_defaults.diary_link_fmt = '%y%m%d'
 
 " NEW! in v2.0
 " custom_wiki2html
