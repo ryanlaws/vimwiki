@@ -348,7 +348,7 @@ let s:vimwiki_defaults.diary_header = 'Diary'
 let s:vimwiki_defaults.diary_sort = 'desc'
 
 " Do not change this! Will wait till vim become more datetime awareable.
-let s:vimwiki_defaults.diary_link_fmt = '%y%m%d'
+let s:vimwiki_defaults.diary_link_fmt = '%Y%m%d'
 
 " NEW! in v2.0
 " custom_wiki2html
